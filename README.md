@@ -19,6 +19,7 @@ firstly we will create a HTML code for the same.
 then we applay some basic css properties as below;
 
 ####
+
 *{
     margin: 0;
     padding: 0;
