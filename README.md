@@ -1,6 +1,6 @@
 # whiteboard-weekly-test-2
 
-# Hosted link :- https://rohitdhawale07.github.io/whiteboard-weekly-test-2/
+## Hosted link :- https://rohitdhawale07.github.io/whiteboard-weekly-test-2/
 
 html code
 
