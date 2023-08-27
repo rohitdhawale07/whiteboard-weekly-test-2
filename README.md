@@ -22,7 +22,7 @@ firstly we will create a HTML code for the same.
     padding: 0;
     box-sizing: border-box;
 }
-body{
+  body{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,23 +31,23 @@ body{
     background-color: azure;
     margin: 0;
 }
-#buttons{
+ #buttons{
     gap: 10px;
     margin-top: 2rem;
     display: flex;
 }
-#deleteButton, #undoButton{
+ #deleteButton, #undoButton{
     padding: 4px 8px;
     border-radius:  10px;
     background-color: antiquewhite;
     border-style: none;
     cursor:  pointer;
 }
-#deleteButton:hover, #undoButton:hover{
+ #deleteButton:hover, #undoButton:hover{
 scale: 1.03;
 color: rgb(10, 10, 161);
 }
-#whiteboard{
+ #whiteboard{
     border: 2px solid rgb(255, 67, 67);
     background-color: white;
     border-radius: 5%;
