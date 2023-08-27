@@ -18,9 +18,7 @@ firstly we will create a HTML code for the same.
 ### CSS
 then we applay some basic css properties as below;
 
-####
-
-*{
+#### *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
