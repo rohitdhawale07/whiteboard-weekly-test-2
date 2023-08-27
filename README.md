@@ -13,3 +13,45 @@ firstly we will create a HTML code for the same.
      <button id="undoButton"> Undo </button>
     </div>
     <canvas id="whiteboard" width="800" height="600"></canvas>
+
+
+### CSS
+then we applay some basic css properties as below;
+
+####
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: azure;
+    margin: 0;
+}
+#buttons{
+    gap: 10px;
+    margin-top: 2rem;
+    display: flex;
+}
+#deleteButton, #undoButton{
+    padding: 4px 8px;
+    border-radius:  10px;
+    background-color: antiquewhite;
+    border-style: none;
+    cursor:  pointer;
+}
+#deleteButton:hover, #undoButton:hover{
+scale: 1.03;
+color: rgb(10, 10, 161);
+}
+#whiteboard{
+    border: 2px solid rgb(255, 67, 67);
+    background-color: white;
+    border-radius: 5%;
+    cursor: crosshair;
+}
