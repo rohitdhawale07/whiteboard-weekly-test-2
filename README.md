@@ -8,7 +8,7 @@ firstly we will create a HTML code for the same.
 
 ### html code
  
- <div id="controls">
+ ####<div id="controls">
     <button id="deleteButton">Delete</button>
      <button id="undoButton">Undo</button>
     </div>
